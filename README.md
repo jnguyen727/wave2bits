@@ -11,6 +11,11 @@ It shows how a baseband message can be modulated, transmitted, and recovered.
 5. **Demodulation:** The receiver uses an envelope detector to recover the message.  
 6. **Filtering:** A low-pass filter removes the carrier, leaving the baseband signal.
 
+## Spectrum Example
+![Spectrum of AM signal](figure.png)  
+
+*Figure 1: Spectrum of the AM signal. The tall peak at 1000 Hz is the carrier, and the smaller sidebands around it represent the message information. Noise is visible at lower levels across the band.*
+
 ## Requirements
 - Python 3
 - NumPy
